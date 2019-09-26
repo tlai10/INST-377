@@ -1,0 +1,89 @@
+/* Style the element with the id "Name" */
+body{
+    background-color: rgba(128, 128, 128, 0.603)
+}
+  /* Q2-1 */
+  .myHeader{
+    font-size:70px;
+    background-color:black;
+    color: white;
+    text-align: center;
+  }
+  /* Q2-2 */
+  .subHeader{
+    font-size: 50px;
+    width:60%;
+    margin: auto;
+    text-align: center;
+  }
+  /*Q2-3 */
+  .myImage{
+      display:flex;
+      flex-direction: column;
+  } 
+  .myDescription{
+      display:flex;
+      flex-direction: column;
+
+  }
+
+  /*Q2-4 */
+  .myImage{
+      display:block;
+      margin-left:auto;
+      margin-right: auto;
+      width:50%;
+      max-width:auto;
+      height:auto;
+    
+  }
+
+  /*Q2-5 */
+    .myDescription{
+        width:auto;
+        border: solid;
+        background:grey;
+        animation: mymove 5s infinite;
+    }
+    @keyframes mymove {
+        from {background-color: grey;}
+        to {background-color: rgba(0, 0, 255, 0.479);}
+      }
+    .first{
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: 40px;
+        text-align: center;
+        flex-direction: row;
+    }
+    
+    .description1{
+        font-size: 20px;
+        font-style: italic;
+        flex-direction: row;
+    }
+    .second{
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size:40px;
+        text-align: center;
+    }
+    .description2{
+        font-size: 20px;
+        font-style:italic;
+    }
+    .third{
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size:40px;
+        text-align: center;
+    }
+    .description3{
+        font-size: 20px;
+        font-style:italic;
+    }
+
+
+
+
+ 
