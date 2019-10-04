@@ -1,12 +1,9 @@
 /* Style the element with the id "Name" */
-body{
-    background-color: rgba(128, 128, 128, 0.603)
-}
   /* Q2-1 */
   .myHeader{
     font-size:70px;
-    background-color:black;
-    color: white;
+    background-color: brown;
+    color: tan;
     text-align: center;
   }
   /* Q2-2 */
@@ -21,11 +18,7 @@ body{
       display:flex;
       flex-direction: column;
   } 
-  .myDescription{
-      display:flex;
-      flex-direction: column;
-
-  }
+  
 
   /*Q2-4 */
   .myImage{
@@ -33,54 +26,74 @@ body{
       margin-left:auto;
       margin-right: auto;
       width:50%;
-      max-width:auto;
       height:auto;
     
   }
 
   /*Q2-5 */
+  .myDescription{
+    display:flex;
+    flex-direction: column;
+
+}
     .myDescription{
-        width:auto;
+        margin: 400px;
         border: solid;
-        background:grey;
+        height: 1000px;
+        
+        border-color: rgba(0, 0, 255, 0.479);
+        background:blueviolet;
         animation: mymove 5s infinite;
     }
     @keyframes mymove {
-        from {background-color: grey;}
+        from {background-color: blueviolet;}
         to {background-color: rgba(0, 0, 255, 0.479);}
       }
     .first{
         text-transform: uppercase;
         text-decoration: underline;
         font-size: 40px;
-        text-align: center;
+        /*text-align: center;*/
         flex-direction: row;
+        display: flex;
+        justify-content: center;
     }
     
     .description1{
         font-size: 20px;
         font-style: italic;
         flex-direction: row;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
     .second{
         text-transform: uppercase;
         text-decoration: underline;
         font-size:40px;
-        text-align: center;
+        /*text-align: center;*/
+        display:flex;
+        justify-content: center;
     }
     .description2{
         font-size: 20px;
         font-style:italic;
+        display:flex;
+        justify-content: center;
     }
     .third{
         text-transform: uppercase;
         text-decoration: underline;
         font-size:40px;
-        text-align: center;
+        /*text-align: center;*/
+        display:flex;
+        justify-content: center;
     }
     .description3{
         font-size: 20px;
         font-style:italic;
+        display:flex;
+        justify-content: center;
     }
 
 
